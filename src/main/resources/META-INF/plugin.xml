@@ -17,5 +17,10 @@
 
     <actions>
         <!-- Add your actions here -->
+        <group id="btt.HelloAction" text="btt" description="Hello Action">
+            <add-to-group group-id="btt.HelloAction" anchor="last"/>
+            <action class="de.olevoss.btt.HelloAction" id="btt.Actions.HelloAction" text="Say Hello"/>
+        </group>
+
     </actions>
 </idea-plugin>
